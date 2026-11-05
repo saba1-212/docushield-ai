@@ -1,0 +1,17 @@
+DATA PROCESSING ADDENDUM
+
+This Data Processing Addendum supplements the Services Agreement between Acme Analytics (the Controller) and SecureHost GmbH (the Processor).
+
+1. Instructions. The Processor will process personal data only on the documented instructions of the Controller and only for the purposes set out in Annex 1.
+
+2. Confidentiality. Everyone authorised to process personal data is bound by written confidentiality duties.
+
+3. Security. The Processor maintains encryption of personal data in transit and at rest, restricts access to authorised staff, and reviews its security controls every year. It holds a current ISO 27001 certificate.
+
+4. Sub-processors. The Processor will engage sub-processors only with the prior written authorisation of the Controller and will impose the same obligations on them.
+
+5. Breach notification. The Processor will notify the Controller without undue delay, and in any event within 24 hours, after becoming aware of a personal data breach.
+
+6. Deletion. On request, or when the services end, the Processor will delete all personal data within thirty days and confirm deletion in writing.
+
+7. Audits. The Controller may audit the Processor's compliance on reasonable notice. We do not sell personal data to third parties.

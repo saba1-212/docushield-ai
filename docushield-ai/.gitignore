@@ -1,0 +1,13 @@
+node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.venv/
+venv/
+backend/database/*.db
+backend/database/*.db-*
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/ml/artifacts/*
+.pytest_cache/
+.DS_Store
