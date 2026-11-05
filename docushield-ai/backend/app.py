@@ -15,7 +15,8 @@ FRONTEND_DIST = os.path.join(os.path.dirname(config.BASE_DIR), "frontend", "dist
 
 def create_app():
     app = Flask(__name__, static_folder=None)
-     CORS(app, resources={
+
+    CORS(app, resources={
         r"/api/*": {
             "origins": [
                 "https://docushield-ai-delta.vercel.app",
@@ -24,7 +25,9 @@ def create_app():
             ]
         }
     })
+
     app.config["MAX_CONTENT_LENGTH"] = config.MAX_FILE_BYTES + 1024 * 1024
+
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 
     os.makedirs(config.UPLOAD_DIR, exist_ok=True)
