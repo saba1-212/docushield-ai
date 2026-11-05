@@ -9,3 +9,5 @@ python-docx>=1.1
 # only needed to regenerate sample PDFs / run tests
 reportlab>=4.0
 pytest>=8.0
+gunicorn
+flask-cors
