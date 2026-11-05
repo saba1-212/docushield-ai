@@ -31,6 +31,7 @@ def create_app():
                     "https://docushield-ai-delta.vercel.app",
                     "https://docushield-ai.vercel.app",
                     "https://docushield-ai-git-main-saba1-212s-projects.vercel.app",
+                    "https://docushield-ai-yjzgvc05-saba1-212s-projects.vercel.app",
                 ]
             }
         },
