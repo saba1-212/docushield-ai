@@ -25,16 +25,12 @@ def create_app():
     # Allow requests from the deployed Vercel frontend
     CORS(
         app,
-        resources={
-            r"/api/.*": {
-                "origins": [
-                    "https://docushield-ai-delta.vercel.app",
-                    "https://docushield-ai.vercel.app",
-                    "https://docushield-ai-git-main-saba1-212s-projects.vercel.app",
-                    "https://docushield-ai-yjzgvc05-saba1-212s-projects.vercel.app",
-                ]
-            }
-        },
+        origins=[
+            "https://docushield-ai-delta.vercel.app",
+            "https://docushield-ai.vercel.app",
+            "https://docushield-ai-git-main-saba1-212s-projects.vercel.app",
+            "https://docushield-ai-yjzgvc05-saba1-212s-projects.vercel.app",
+        ],
     )
 
     app.config["MAX_CONTENT_LENGTH"] = (
